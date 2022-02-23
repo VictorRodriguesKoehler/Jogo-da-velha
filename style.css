@@ -35,7 +35,7 @@ position: relative;
 }
 
 .o::after{
-    content: "\1F311";
+    content: "\1F315";
     font-size: 50px;
     line-height: 100px;
     position: absolute;
