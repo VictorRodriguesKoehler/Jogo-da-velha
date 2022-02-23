@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    background-color: rgb(77,75,132);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(196, 195, 195);
+    background-color: rgb(27,35,67);
+    padding: 30px;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(105, 105, 99); */
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    background-image: url(./imgs/pexels-photo-1146134.jpeg)
+}
+
+.square:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+.o{
+position: relative;
+
+}
+
+.o::after{
+    content: "\1F311";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    content: "\2B50";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#btn{
+    border-radius: 10px;
+    background-color: rgb(42, 56, 87);
+    color: rgb(196, 195, 195);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+#btn:hover{
+    color: yellow;
+    background-color: rgb(74,85,114);
+}
